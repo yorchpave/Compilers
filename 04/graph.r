@@ -12,8 +12,8 @@ plot(lex_compiler, type="o", col="red", ylim=g_range,
 axis(1, at=1:3, lab=c("Real","User","Sys"))
 
 # Make y axis with horizontal labels that display ticks at 
-# every 4 marks. 4*0:g_range[2] is equivalent to c(0,4,8,12).
-axis(2, las=1, at=4*0:g_range[2])
+# every 1 mark. 1*0:g_range[2] is equivalent to c(0,1,8,12).
+axis(2, las=1, at=1*0:g_range[2])
 
 # Create box around plot
 box()
